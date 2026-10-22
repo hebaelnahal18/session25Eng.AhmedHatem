@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <!-- Start header Register section -->
+    <header class="container header-home mt-9 ">
+        <div class="row">
+            <div class="md:col-6">
+                <img src="/images/image2.jpg" alt="" class="w-75">
+            </div>
+            <div class="md:col-6">
+                <h2 class="fg-black">Create Account</h2>
+                <p class="fg-secondary mt-4 my-7">Go ahead and sign up,let everyone<br>
+                    know how awesome you are</p>
+                <h4 id="result"></h4>
+                
+                <form onsubmit="return validationData()" action="success.html">
+                    <input id='user' type="text" name="userName" class="form-control  bg-white p-4 mb-7 rounded-2 fg-black"
+                        placeholder="User Name">
+                    <input id="email" type="text" name="userEmail" class="form-control bg-white p-4 mb-7 rounded-2 fg-black"
+                        placeholder="Email">
+                    <input id="password" type="password" name="userPassword"
+                        class="form-control bg-white p-4 mb-7 rounded-2 fg-black " placeholder="Password">
+                    <input id="confirmPass" type="password" name="userConfirmPassword"
+                        class="form-control bg-white p-4 mb-7 rounded-2 fg-black" placeholder="Confirm Password">
+                    <input id='submitBtn' type="submit" value="Create New Account" class="theme-primary btn-solid w-100 p-3 rounded-2">
+                </form>
+
+            </div>
+    </header>
+    <!-- End Start header Register section  -->
+
+    <script src="/JS/main.js"></script>
+    <!-- <script src="/JS/bootstrap.bundle.min.js"></script> -->
+</body>
+
+</html>
